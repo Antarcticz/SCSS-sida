@@ -3,7 +3,7 @@ body main {
     @include size(687px, 421px);
     @include margin(1px, 0, 0);
     background-color: $main-color;
-    box-shadow: 8px 8px 12px #00000040;
+    box-shadow: $box-shadow;
 
     .small-room-wrap {
         @include flex(row, space-around, center, nowrap);

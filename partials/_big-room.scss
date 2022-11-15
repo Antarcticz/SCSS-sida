@@ -3,7 +3,8 @@ main .big-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 1rem, 1rem);
     @include size(201px, 104px);
-    background-color: $big-room-color;
+    @include hover($big-room-color);
+    box-shadow: $box-shadow2;
     
     // -------------YELLOW CATED--------------
     .big-room-cated-wrap {

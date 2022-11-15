@@ -3,7 +3,8 @@ main .small-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 0, 0);
     @include size(117px, 73px);
-    background-color: $small-room-color;
+    @include hover($small-room-color);
+    box-shadow: $box-shadow2;
 
     // ------------LIGHTGREEN CATED-----------
     .small-room-cated-wrap {

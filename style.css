@@ -47,6 +47,10 @@ main .small-room {
   margin-right: 0;
   width: 117px;
   height: 73px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
+}
+main .small-room main .small-room:hover, main .small-room main .medium-room:hover, main .small-room main .big-room:hover {
   background-color: #2622DE;
 }
 main .small-room .small-room-cated-wrap {
@@ -93,6 +97,10 @@ main .medium-room {
   margin-right: 1rem;
   width: 161px;
   height: 90px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
+}
+main .medium-room main .small-room:hover, main .medium-room main .medium-room:hover, main .medium-room main .big-room:hover {
   background-color: #22E51E;
 }
 main .medium-room .medium-room-cated-wrap {
@@ -147,6 +155,10 @@ main .big-room {
   margin-right: 1rem;
   width: 201px;
   height: 104px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
+}
+main .big-room main .small-room:hover, main .big-room main .medium-room:hover, main .big-room main .big-room:hover {
   background-color: #D42929;
 }
 main .big-room .big-room-cated-wrap {

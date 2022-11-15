@@ -16,3 +16,14 @@
     margin-left: $margin-left;
     margin-right: $margin-right;
 }
+
+@mixin hover ($hover-color) {
+    cursor: pointer;
+
+    main { 
+        .small-room:hover, .medium-room:hover, .big-room:hover { 
+            background-color: $hover-color; 
+        } 
+    } 
+    
+}
