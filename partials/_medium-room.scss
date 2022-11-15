@@ -1,9 +1,11 @@
+    // -----------GREEN MEDIUM ROOM------------
 main .medium-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 1rem, 1rem);
     @include size(161px, 90px);
     background-color: $medium-room-color;
 
+    // --------------PINK CATED----------------
     .medium-room-cated-wrap {
         @include flex(row, space-around, center, wrap);
         @include margin(1px, 0, 0);
@@ -14,15 +16,20 @@ main .medium-room {
         background-color: $medium-room-cated-color;
     }
 
+    // ----------BLUE TABLES MIDDLE ROW--------
     .medium-room-table-row2-wrap {
         @include flex(row, space-evenly, center, wrap);
         width: 70%;
     }
+
+    // -----------BLUE TABLES LAST ROW---------
     .medium-room-table-row3-wrap {
         @include flex(row, space-evenly, center, wrap);
         width: 100%;
 
     }
+    
+    // --------------BLUE TABLES----------------
     .medium-room-table {
         @include margin(1px, 0, 0);
         @include size(21px, 21px);

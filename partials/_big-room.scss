@@ -1,9 +1,11 @@
+    // -------------RED BIG ROOM--------------
 main .big-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 1rem, 1rem);
     @include size(201px, 104px);
     background-color: $big-room-color;
-
+    
+    // -------------YELLOW CATED--------------
     .big-room-cated-wrap {
         @include flex(row, space-around, center);
         @include margin(1px, 0, 0);
@@ -13,6 +15,8 @@ main .big-room {
         @include size(21px, 21px);
         background-color: $big-room-cated-color;
     }
+
+    // ------------LIGHTBLUE TABLES------------
     .big-room-table-wrap {
         @include flex(row, space-around, center);
         @include margin(1px, 0, 0);

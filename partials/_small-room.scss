@@ -1,9 +1,11 @@
+    // ------------BLUE SMALL ROOM------------
 main .small-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 0, 0);
     @include size(117px, 73px);
     background-color: $small-room-color;
 
+    // ------------LIGHTGREEN CATED-----------
     .small-room-cated-wrap {
         @include flex(row, space-around, center, wrap);
         width: 100%;
@@ -13,7 +15,8 @@ main .small-room {
         @include size(21px, 21px);
         background-color: $small-room-cated-color;
     }
-
+    
+    // -------------ORANGE TABLES-------------
     .small-room-table-wrap {
         @include flex(row, space-around, center, wrap);
         width: 100%;
