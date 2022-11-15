@@ -1,0 +1,27 @@
+main .small-room {
+    @include flex(column, space-around, center, nowrap);
+    @include margin(1px, 0, 0);
+    @include size(117px, 73px);
+    background-color: $small-room-color;
+
+    .small-room-cated-wrap {
+        @include flex(row, space-around, center, wrap);
+        width: 100%;
+    }
+    .small-room-cated {
+        @include margin(1px, 0, 0);
+        @include size(21px, 21px);
+        background-color: $small-room-cated-color;
+    }
+
+    .small-room-table-wrap {
+        @include flex(row, space-around, center, wrap);
+        width: 100%;
+    }
+    .small-room-table {
+        @include margin(1px, 0, 0);
+        @include size(21px, 21px);
+        background-color: $small-room-table-color;
+    }
+
+}

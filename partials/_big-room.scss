@@ -1,0 +1,26 @@
+main .big-room {
+    @include flex(column, space-around, center, nowrap);
+    @include margin(1px, 1rem, 1rem);
+    @include size(201px, 104px);
+    background-color: $big-room-color;
+
+    .big-room-cated-wrap {
+        @include flex(row, space-around, center);
+        @include margin(1px, 0, 0);
+        width: 100%;
+    }
+    .big-room-cated {
+        @include size(21px, 21px);
+        background-color: $big-room-cated-color;
+    }
+    .big-room-table-wrap {
+        @include flex(row, space-around, center);
+        @include margin(1px, 0, 0);
+        width:80%;
+    }
+    .big-room-table {
+        @include size(21px, 21px);
+        background-color: $big-room-table-color;
+    }
+
+}

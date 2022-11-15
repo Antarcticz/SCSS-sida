@@ -1,0 +1,18 @@
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin flex($direction, $justify, $align, $wrap:nowrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin margin ($margin, $margin-left, $margin-right) {
+    margin: $margin;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}

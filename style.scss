@@ -1,0 +1,18 @@
+@import "partials/varibles";
+@import "partials/mixins";
+@import "partials/main";
+@import "partials/small-room";
+@import "partials/medium-room";
+@import "partials/big-room";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include flex(row, center, center);
+    height: 100vh;
+    background-color: $body-color;
+}

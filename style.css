@@ -1,0 +1,199 @@
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 687px;
+  height: 421px;
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #fff;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2509803922);
+}
+body main .small-room-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+}
+body main .medium-room-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+body main .big-room-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 2rem;
+}
+
+main .small-room {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 117px;
+  height: 73px;
+  background-color: #2622DE;
+}
+main .small-room .small-room-cated-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main .small-room .small-room-cated {
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 21px;
+  height: 21px;
+  background-color: #44FF02;
+}
+main .small-room .small-room-table-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main .small-room .small-room-table {
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 21px;
+  height: 21px;
+  background-color: #FF7C02;
+}
+
+main .medium-room {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 161px;
+  height: 90px;
+  background-color: #22E51E;
+}
+main .medium-room .medium-room-cated-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+main .medium-room .medium-room-cated {
+  width: 21px;
+  height: 21px;
+  background-color: #FF02A9;
+}
+main .medium-room .medium-room-table-row2-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+main .medium-room .medium-room-table-row3-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main .medium-room .medium-room-table {
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 21px;
+  height: 21px;
+  background-color: #3603FF;
+}
+
+main .big-room {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 201px;
+  height: 104px;
+  background-color: #D42929;
+}
+main .big-room .big-room-cated-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+main .big-room .big-room-cated {
+  width: 21px;
+  height: 21px;
+  background-color: #EBFF03;
+}
+main .big-room .big-room-table-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+}
+main .big-room .big-room-table {
+  width: 21px;
+  height: 21px;
+  background-color: #07FDC2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100vh;
+  background-color: #f0f0f0;
+}/*# sourceMappingURL=style.css.map */
