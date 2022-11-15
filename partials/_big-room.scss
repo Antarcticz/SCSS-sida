@@ -1,9 +1,14 @@
+main .big-room:hover {
+    background-color: $big-room-color;
+}    
     // -------------RED BIG ROOM--------------
 main .big-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 1rem, 1rem);
     @include size(201px, 104px);
-    @include hover($big-room-color);
+    // @include hover($big-room-color);
+    cursor: pointer;
+    background-color: $defult-color;
     box-shadow: $box-shadow2;
     
     // -------------YELLOW CATED--------------

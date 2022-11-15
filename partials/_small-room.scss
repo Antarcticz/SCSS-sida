@@ -1,9 +1,14 @@
+main .small-room:hover {
+    background-color: $small-room-color;
+}
     // ------------BLUE SMALL ROOM------------
 main .small-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 0, 0);
     @include size(117px, 73px);
-    @include hover($small-room-color);
+    // @include hover($small-room-color);
+    cursor: pointer;
+    background-color: $defult-color;
     box-shadow: $box-shadow2;
 
     // ------------LIGHTGREEN CATED-----------

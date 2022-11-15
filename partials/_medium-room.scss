@@ -1,9 +1,14 @@
-    // -----------GREEN MEDIUM ROOM------------
+main .medium-room:hover {
+    background-color: $medium-room-color;
+}  
+   // -----------GREEN MEDIUM ROOM------------
 main .medium-room {
     @include flex(column, space-around, center, nowrap);
     @include margin(1px, 1rem, 1rem);
     @include size(161px, 90px);
-    @include hover($medium-room-color);
+    // @include hover($medium-room-color);
+    cursor: pointer;
+    background-color: $defult-color;
     box-shadow: $box-shadow2;
 
     // --------------PINK CATED----------------

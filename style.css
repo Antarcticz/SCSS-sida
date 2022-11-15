@@ -36,6 +36,10 @@ body main .big-room-wrap {
   margin-bottom: 2rem;
 }
 
+main .small-room:hover {
+  background-color: #2622DE;
+}
+
 main .small-room {
   display: flex;
   flex-direction: column;
@@ -48,10 +52,8 @@ main .small-room {
   width: 117px;
   height: 73px;
   cursor: pointer;
+  background-color: #d9d9d9;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
-}
-main .small-room main .small-room:hover, main .small-room main .medium-room:hover, main .small-room main .big-room:hover {
-  background-color: #2622DE;
 }
 main .small-room .small-room-cated-wrap {
   display: flex;
@@ -86,6 +88,10 @@ main .small-room .small-room-table {
   background-color: #FF7C02;
 }
 
+main .medium-room:hover {
+  background-color: #22E51E;
+}
+
 main .medium-room {
   display: flex;
   flex-direction: column;
@@ -98,10 +104,8 @@ main .medium-room {
   width: 161px;
   height: 90px;
   cursor: pointer;
+  background-color: #d9d9d9;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
-}
-main .medium-room main .small-room:hover, main .medium-room main .medium-room:hover, main .medium-room main .big-room:hover {
-  background-color: #22E51E;
 }
 main .medium-room .medium-room-cated-wrap {
   display: flex;
@@ -144,6 +148,10 @@ main .medium-room .medium-room-table {
   background-color: #3603FF;
 }
 
+main .big-room:hover {
+  background-color: #D42929;
+}
+
 main .big-room {
   display: flex;
   flex-direction: column;
@@ -156,10 +164,8 @@ main .big-room {
   width: 201px;
   height: 104px;
   cursor: pointer;
+  background-color: #d9d9d9;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2509803922);
-}
-main .big-room main .small-room:hover, main .big-room main .medium-room:hover, main .big-room main .big-room:hover {
-  background-color: #D42929;
 }
 main .big-room .big-room-cated-wrap {
   display: flex;
