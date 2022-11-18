@@ -18,8 +18,9 @@ main .medium-room {
         width: 100%;
     }
     .medium-room-cated {
-        @include size(21px, 21px);
+        @include size(41px, 21px);
         background-color: $medium-room-cated-color;
+        box-shadow: $box-shadow3
     }
 
     // ----------BLUE TABLES MIDDLE ROW--------
@@ -40,6 +41,7 @@ main .medium-room {
         @include margin(1px, 0, 0);
         @include size(21px, 21px);
         background-color: $medium-room-table-color;
+        box-shadow: $box-shadow3
     }
 
 }

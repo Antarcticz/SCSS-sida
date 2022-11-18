@@ -67,9 +67,10 @@ main .small-room .small-room-cated {
   margin: 1px;
   margin-left: 0;
   margin-right: 0;
-  width: 21px;
+  width: 41px;
   height: 21px;
   background-color: #44FF02;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 main .small-room .small-room-table-wrap {
   display: flex;
@@ -86,6 +87,7 @@ main .small-room .small-room-table {
   width: 21px;
   height: 21px;
   background-color: #FF7C02;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 
 main .medium-room:hover {
@@ -119,9 +121,10 @@ main .medium-room .medium-room-cated-wrap {
   width: 100%;
 }
 main .medium-room .medium-room-cated {
-  width: 21px;
+  width: 41px;
   height: 21px;
   background-color: #FF02A9;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 main .medium-room .medium-room-table-row2-wrap {
   display: flex;
@@ -146,6 +149,7 @@ main .medium-room .medium-room-table {
   width: 21px;
   height: 21px;
   background-color: #3603FF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 
 main .big-room:hover {
@@ -179,9 +183,10 @@ main .big-room .big-room-cated-wrap {
   width: 100%;
 }
 main .big-room .big-room-cated {
-  width: 21px;
+  width: 41px;
   height: 21px;
   background-color: #EBFF03;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 main .big-room .big-room-table-wrap {
   display: flex;
@@ -198,6 +203,7 @@ main .big-room .big-room-table {
   width: 21px;
   height: 21px;
   background-color: #07FDC2;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2509803922);
 }
 
 * {
